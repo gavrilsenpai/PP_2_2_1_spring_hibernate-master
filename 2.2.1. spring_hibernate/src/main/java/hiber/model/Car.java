@@ -23,8 +23,6 @@ public class Car {
         this.series = series;
     }
 
-    // геттеры и сеттеры
-
     public String getModel() { return model; }
     public void setModel(String model) { this.model = model; }
 
@@ -42,9 +40,4 @@ public class Car {
                 ", series=" + series +
                 '}';
     }
-
-    //    @Override
-//    public String toString() {
-//        return model + " " + series;
-//    }
 }
